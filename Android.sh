@@ -1009,7 +1009,7 @@ termux_full_deploy() {
   termux_ensure_deps
 
   title "网络监听配置"
-  tprintln "${YELLOW}说明${NC}: 0.0.0.0 可供局域网访问"
+  tprintln "${YELLOW}说明${NC}: 0.0.0.0 可供局域网访问，127.0.0.1仅本机设备访问"
   tprintln ""
 
   APP_HOST="$(prompt_text "监听地址" "$APP_HOST")"
