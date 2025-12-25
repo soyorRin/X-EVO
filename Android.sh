@@ -1029,8 +1029,8 @@ menu_termux() {
     banner
     print_system_check
     title "菜单"
-    tprintln "${GREEN}1${NC}) 开始部署/更新 (包含环境、服务、应用配置)"
-    tprintln "${GREEN}2${NC}) 启动程序 (依次启动 PG/Redis/App)"
+    tprintln "${GREEN}1${NC}) 开始部署/更新"
+    tprintln "${GREEN}2${NC}) 启动程序"
     tprintln "${GREEN}0${NC}) 退出"
     tprintln ""
     tprintf "${YELLOW}请选择${NC}: "
